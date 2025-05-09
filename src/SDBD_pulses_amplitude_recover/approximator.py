@@ -15,7 +15,6 @@ class PulseApproximator:
             start_index = start_candidates[0]
         else:
             start_index = max(0, int(peak_index * 0.9))
-        # Original code likely had a bug: should clamp to at least 0
         return max(0, start_index)
 
     @staticmethod
