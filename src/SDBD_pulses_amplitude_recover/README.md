@@ -20,19 +20,9 @@ A Python package for recovering clipped current pulses in experimental signal da
 pip install pulseapproximator
 ```
 
-Or, from source:
-
-```bash
-git clone https://github.com/yourname/pulseapproximator.git
-cd pulseapproximator
-pip install .
-```
-
----
-
 ## Requirements
 
-- Python 3.7+
+- Python 3.13+
 - numpy
 - scipy
 - matplotlib (for plotting)
@@ -116,7 +106,7 @@ MIT
 
 ## Acknowledgments
 
-Forked and extended from original scripts by [Your Name / Institution], 2024.
+Uses model originally proposed in Synek, P. Advanced electrical current measurements of microdischarges: evidence of sub-critical pulses and ion currents in barrier discharge in air / P. Synek, M. Zemánek, V. Kudrle, T. Hoder // Plasma Sources Science and Technology. – 2019. – Vol. 27, No. 4.
 
 ---
 
@@ -128,13 +118,7 @@ Pull requests welcome! Please open issues for bugs or suggestions.
 
 ## Contact
 
-Email: your.email@example.com
-GitHub: [yourname](https://github.com/yourname)
+Email: danil.nizamov@codesignal.com
+Telegram: @nizamovdanil
 
 ---
-
-**Happy pulse analyzing!**
-
----
-
-Let me know if you want additional usage examples, explanations of parameters, or other information for your README!
